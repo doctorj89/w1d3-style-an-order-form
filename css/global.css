@@ -5,6 +5,7 @@
 h1 {
     text-align: center;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -13,7 +14,7 @@ img {
 
 body {
     padding: 20px;
-    background-image: url(/img/background1.jpg);
+    background-image: url(/img/background1.JPG);
     background-size: 100% 100%;
     background-attachment: fixed;
 }
@@ -67,9 +68,9 @@ a {
     transition: all 3s ease;
 }
 
-.center_button > button:hover {
+/*.center_button > button:hover {
     transform: scale(2);
-}
+}*/
 
 .field > input[type=checkbox] {
     height: 20px;
@@ -102,4 +103,32 @@ a {
     /*- to center*/
     font-family: 'Roboto', sans-serif;
     border-radius: 30px;
+}
+
+.thanks {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+.trackButton {
+    text-align: center; 
+}
+
+.thanks > button {
+    background: red;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: all 3s ease;
+    transform: scale(2);
+}
+
+.thanks > button:hover {
+    transform: scale(3);
 }
